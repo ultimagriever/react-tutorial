@@ -10,7 +10,7 @@ function Prompt(props) {
       <h1>{props.header}</h1>
       <div className="col-sm-12">
         <form onSubmit={props.onSubmitUser}>
-          <div class="form-group">
+          <div className="form-group">
             <input
               className="form-control"
               placeholder="Github Username"
